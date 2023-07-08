@@ -1,0 +1,40 @@
+name: Plugiix
+version: '${project.version}'
+description: 'A global plugin made for Matiix310 personal servers'
+main: fr.matiix310.plugiix.Plugiix
+api-version: '1.20'
+author: Matiix310
+
+##############################
+#########  COMMANDS  #########
+##############################
+
+commands:
+  feed:
+    description: Feed the requested player
+    permission: plugiix.feed
+    permission-message: You have to be an op to use this command
+    usage: /feed [Player?]
+  setfood:
+    description: set the food level of the requested player
+    permission: plugiix.feed
+    permission-message: You have to be an op to use this command
+    usage: /setfood [Player?] <foodLevel>
+  heal:
+    description: Heal the requested player
+    permission: plugiix.heal
+  sethealth:
+    description: Set the health of the requested player
+    permission: plugiix.heal
+
+##############################
+#######  PERMISSIONS  ########
+##############################
+
+permissions:
+  plugiix.feed:
+    default: op
+    description: Use the feed command
+  plugiix.heal:
+    default: op
+    description: Use the heal command
