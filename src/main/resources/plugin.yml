@@ -14,18 +14,20 @@ commands:
     description: Feed the requested player
     permission: plugiix.feed
     permission-message: You have to be an op to use this command
-    usage: /feed [Player?]
+    usage: /feed [pseudo]
   setfood:
     description: set the food level of the requested player
     permission: plugiix.feed
     permission-message: You have to be an op to use this command
-    usage: /setfood [Player?] <foodLevel>
+    usage: /setfood [pseudo] <foodLevel>
   heal:
     description: Heal the requested player
     permission: plugiix.heal
+    usage: /heal [pseudo]
   sethealth:
     description: Set the health of the requested player
     permission: plugiix.heal
+    usage: /sethealth [pseudo] <health>
 
 ##############################
 #######  PERMISSIONS  ########
