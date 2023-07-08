@@ -1,4 +1,4 @@
-ix
+# Plugiix
 
 A paper plugin made for my personnal minecraft servers.
 
