@@ -13,21 +13,38 @@ commands:
   feed:
     description: Feed the requested player
     permission: plugiix.feed
-    permission-message: You have to be an op to use this command
+    permission-message: You don't have the permission to use this command!
     usage: /feed [pseudo]
   setfood:
     description: set the food level of the requested player
     permission: plugiix.feed
-    permission-message: You have to be an op to use this command
+    permission-message: You don't have the permission to use this command!
     usage: /setfood [pseudo] <foodLevel>
   heal:
     description: Heal the requested player
     permission: plugiix.heal
+    permission-message: You don't have the permission to use this command!
     usage: /heal [pseudo]
   sethealth:
     description: Set the health of the requested player
     permission: plugiix.heal
+    permission-message: You don't have the permission to use this command!
     usage: /sethealth [pseudo] <health>
+  tpa:
+    description: Ask a player to teleport you at his position.
+    permission: plugiix.tpa
+    permission-message: You don't have the permission to use this command!
+    usage: /tpa <pseudo>
+  tpaccept:
+    description: Accept a teleportation request from a player.
+    permission: plugiix.tpa
+    permission-message: You don't have the permission to use this command!
+    usage: /tpaccept <pseudo>
+  tpdecline:
+    description: Decline a teleportation request from a player.
+    permission: plugiix.tpa
+    permission-message: You don't have the permission to use this command!
+    usage: /tpdecline <pseudo>
 
 ##############################
 #######  PERMISSIONS  ########
@@ -40,3 +57,6 @@ permissions:
   plugiix.heal:
     default: op
     description: Use the heal command
+  plugiix.tpa:
+    default: true
+    description: Use the tpa command.
