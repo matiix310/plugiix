@@ -39,4 +39,4 @@ jobs:
     - name: Upload jAR file
       uses: actions/upload-artifact@v3.0.0
       with:
-        path: target/Plugiix-${{ steps.project.outputs.version }}
+        path: target/Plugiix-${{ steps.project.outputs.version }}.jar
