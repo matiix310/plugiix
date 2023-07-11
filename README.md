@@ -7,10 +7,10 @@ A paper plugin made for my personnal minecraft servers.
 
 ### Commands
 - /feed [pseudo]
-- /setfood [pseudo] <foodlevel>
+- /setfood [pseudo] \<foodlevel\>
 - /heal [pseudo]
-- /sethealth [pseudo] <health>
-- /tpa <pseudo>
+- /sethealth [pseudo] \<health\>
+- /tpa \<pseudo\>
 
 To see a full list of availible commands and their usage, please run :
 
