@@ -17,7 +17,7 @@ To see a full list of availible commands and their usage, please run :
 ```minecraft
 /help plugiix
 ```
-## Installation
+## Build from source code
 
 You first need to install mvn (maven cli).
 
