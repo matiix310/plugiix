@@ -22,7 +22,7 @@ To see a full list of availible commands and their usage, please run :
 You first need to install mvn (maven cli).
 
 ```bash
-  mvn clean install
+mvn clean install
 ```
 
 This will create a directory named "target" containing the jar file of the compiled plugin.
